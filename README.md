@@ -1,40 +1,29 @@
+# Course Two Project 
 
-### Table of Contents
+## Libraries Used
+The following python libraries were using in this project
 
-1. [Installation](#installation)
-2. [Project Motivation](#motivation)
-3. [File Descriptions](#files)
-4. [Results](#results)
-5. [Licensing, Authors, and Acknowledgements](#licensing)
+- pandas==2.2.2
+- matplotlib==3.8.4
+- seaborn==0.13.2
+- numpy==1.26.4
+- sklearn==1.4.2 
 
-## Installation <a name="installation"></a>
+## Project Motivation
+Data from the World Bank Databank Website is used to answer the list of questions below:
 
-There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python.  The code should run with no issues using Python versions 3.*.
+_Questions we hope to answer:__
+1. Is there a correlation between Gross Domestic Product(GDP), GPD Annual Percentage Grown, or GDP Per Cap and to living longer past 60 years of age?
+2. In countries where more men and woman are employed in agriculture, is the life expectancy past 60 lower?
+3. Are male and female life expectancy correlated and do woman tend to live longer?
+4. Can we use one of the economic variables like GDP or GDP per capita, and Agriculture related features in the 2023 World Bank data to train a linear regression model that predicts the life expectancy of men past 60?  
 
-## Project Motivation<a name="motivation"></a>
+## File Description
 
-For this project, I was interestested in using Stack Overflow data from 2017 to better understand:
+- Udacity-Project One/ World Bank Data Life vs Exp Final.ipynbFile  Jupyiter Notebook containing data analysis
+- File Description number two  Excel File containing data used for analysis
+- Linke to Blog Post on Medium: https://medium.com/@william.anthony_2118/does-money-buy-more-years-after-60-a-global-look-54811777acbe
 
-1. How other developers suggested breaking into the field (what education to pursue)?
-2. What factors about an individual contributed to salary?
-3. How bias played a role in the suggestions of developers for how to break into the field?
-4. What was the state of bootcamps for assisting individuals with breaking into developer roles?
-5. How were bootcamps assisting with increasing diversity in tech careers?
+## License, Acknowledgements
 
-The full set of files related to this course are owned by Udacity, so they are not publicly available here.  However, you can see pieces of the analysis here.  This README also serves as a template for students to follow in creating their own project README files.
-
-
-## File Descriptions <a name="files"></a>
-
-There are 3 notebooks available here to showcase work related to the above questions.  Each of the notebooks is exploratory in searching through the data pertaining to the questions showcased by the notebook title.  Markdown cells were used to assist in walking through the thought process for individual steps.  
-
-There is an additional `.py` file that runs the necessary code to obtain the final model used to predict salary.
-
-## Results<a name="results"></a>
-
-The main findings of the code can be found at the post available [here](https://medium.com/@josh_2774/how-do-you-become-a-developer-5ef1c1c68711).
-
-## Licensing, Authors, Acknowledgements<a name="licensing"></a>
-
-Must give credit to Stack Overflow for the data.  You can find the Licensing for the data and other descriptive information at the Kaggle link available [here](https://www.kaggle.com/stackoverflow/so-survey-2017/data).  Otherwise, feel free to use the code here as you would like! 
-
+__The data used in this notebook was obtained from the World Bank Databank Website, available at: https://databank.worldbank.org/__
